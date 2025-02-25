@@ -9,7 +9,7 @@ import {
 
 const router = Router();
 
-router.post('/', createResumeController);
+router.post('/create', createResumeController);
 router.get('/', getResumesController);
 router.get('/:id', getResumeByIdController);
 router.put('/:id', updateResumeController);
